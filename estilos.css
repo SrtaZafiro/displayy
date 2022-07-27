@@ -1,0 +1,313 @@
+
+#fondocolombia{
+    background-color:rgb(255, 227, 17);
+    width: 499px;
+    height: 300px;
+    border: 1px solid rgb(255, 227, 17)
+}
+#azulc{
+    background-color: rgb(8, 8, 176);
+    width: 500px;
+    height: 80px;
+    margin-top: 30%;    
+}
+#rojoc{
+    background-color: rgb(217, 5, 5);
+    width: 500px;
+    height: 70px;
+}
+#fondomexico{
+    background-color: rgb(0, 93, 16);
+    width: 500px;
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+}
+#blancomexico{
+    background-color: white;
+    width: 150px;
+    height: 300px;
+    margin-left: 35%;
+}
+#escudomexico{
+    width: 130px;
+    height: 130px;
+    margin-top: 50%;
+    margin-left: 8%;
+}
+#rojomexico{
+    background-color: rgb(211, 14, 14);
+    width: 175px;
+    height: 300px;
+    border-top: 1px;
+}
+#fondoesp{
+    background-color: rgb(224, 10, 10);
+    width:500px;
+    height:300px;
+    border: 1px solid black;
+}
+#amarilloesp{
+    background-color: rgb(241, 199, 8);
+    width: 500px;
+    height: 150px;
+    margin-top: 15%;
+}
+#escudoespana{
+    width: 130px;
+    height: 130px;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+#fondojapon{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+#rojoj{
+    background-color: red;
+    width: 40%;
+    height: 65%;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.fondoislandia{
+    width: 502px;
+    height: 300px;
+    background:linear-gradient(blue,blue)0 0 /120px 100px,
+    linear-gradient(blue,blue)0 100% /120px 120px,
+    linear-gradient(blue,blue)100% 0/285px 100px,
+    linear-gradient(blue,blue)100% 100% /285px 120px,
+    linear-gradient(red,red)137px 0 /60px 100%,
+    linear-gradient(red,red)0 113px /100% 50px;
+    background-repeat: no-repeat
+}
+#fondochile{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+}
+#blanco{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+}
+#azul{
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+}
+
+.shield__container{
+    background-color:blue;
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  
+  .container__star,
+  .container__star::before,
+  .container__star::after{
+      width: 0;
+      border-color: transparent transparent #fff transparent;
+      border-width: 0 4rem 2.5rem 4rem;
+      border-style: solid;
+      position: absolute;
+      transform: rotate(180deg);
+      margin-top: 3.75rem;
+      margin-left: 2.00rem;    
+  }
+  
+  .container__star::before{
+      content: '';
+      margin-top: -0.15rem;
+      margin-left: -4.3rem;
+      transform: rotate(70deg);
+  }
+  
+  .container__star::after{
+      content: '';
+      margin-top: -0.29rem;
+      margin-left: -3.87rem;
+      transform: rotate(-70deg);
+  }
+#fondobrasil {
+    background-color: rgb(2, 128, 2);
+    width: 502px;
+    height: 300px;
+    display: flex;
+}
+
+#triangulo1 {
+    width: 0;
+    height: 0;
+    border-top: 110px solid transparent;
+    border-right: 190px solid yellow;
+    border-bottom: 110px solid transparent;
+    margin-left: 12%;
+    z-index: 1;
+    position: relative;
+    margin-top: 8%;
+}
+
+#triangulo2 {
+    width: 0;
+    height: 0;
+    border-top: 110px solid transparent;
+    border-left: 190px solid yellow;
+    border-bottom: 110px solid transparent;
+    z-index: 1;
+    position: relative;
+    margin-top: 8%;
+}
+
+#circulo {
+    background-color:rgb(11, 11, 131);
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: -53%;
+    margin-top: 15%;
+    position: relative;
+    z-index: 2;
+}
+#pakistan {
+    background-color: rgb(0, 102, 54);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+#lateral {
+    background-color: white;
+    width: 160px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+}
+
+#circulofondo {
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+#circuloarriba {
+    background-color: rgb(0, 102, 54);
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+.shield__containerp {
+    background-color: rgb(0, 102, 54);
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+.container__starp,
+.container__starp::before,
+.container__starp::after {
+    width: 0;
+    border-color: transparent transparent #fff transparent;
+    border-width: 0 4rem 2.5rem 4rem;
+    border-style: solid;
+    position: absolute;
+    transform: rotate(160deg);
+    margin-top: 5.75rem;
+    margin-left: 14.00rem;
+}
+
+.container__starp::before {
+    content: '';
+    margin-top: -0.15rem;
+    margin-left: -4.3rem;
+    transform: rotate(70deg);
+}
+
+.container__starp::after {
+    content: '';
+    margin-top: -0.29rem;
+    margin-left: -3.87rem;
+    transform: rotate(-70deg);
+}
+
+#fondocorea {
+    background-color: rgb(250, 243, 243);
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin-top: 18%;
+    position: absolute;
+}
+
+body {
+    justify-content: center;
+}
+
+.yinyang {
+    position: relative;
+    background: rgb(36, 36, 176);
+    height: 100px;
+    border-color: rgb(206, 16, 16);
+    border-style: solid;
+    width: 50px;
+    border-width: 2px 50px 2px 2px;
+    border-radius: 50%;
+    animation: roll 40000s infinite;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.yinyang:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: rgb(206, 16, 16);
+    border: 18px solid rgb(206, 16, 16);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+
+.yinyang:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgb(36, 36, 176);
+    border: 18px solid rgb(36, 36, 176);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+#lineasbandera {
+    margin-top: -37%;
+}
+
+
+@keyframes roll {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(3600000deg);
+    }
+}
